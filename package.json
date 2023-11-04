@@ -1,0 +1,63 @@
+{
+  "name": "eslint-config-ast",
+  "version": "0.0.0",
+  "description": "ESLint configurations",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "files": [
+    "*.js",
+    "!.eslintrc.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rick-ast/eslint-config-ast.git"
+  },
+  "keywords": [
+    "ESLint",
+    "Typescript",
+    "React",
+    "Next.js",
+    "NestJS",
+    "React Native"
+  ],
+  "author": "Rick <rick.ast@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rick-ast/eslint-config-ast/issues"
+  },
+  "homepage": "https://github.com/rick-ast/eslint-config-ast#readme",
+  "peerDependencies": {
+    "eslint": ">=8",
+    "prettier": ">=3",
+    "typescript": ">=4.5"
+  },
+  "dependencies": {
+    "@react-native/eslint-plugin": "^0.74.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-import-resolver-typescript": "^3.6.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-native": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.2",
+    "prettier": "^3.0.3"
+  },
+  "lint-staged": {
+    "*": [
+      "prettier --write --cache --ignore-unknown"
+    ],
+    "*.js": [
+      "eslint --fix"
+    ]
+  }
+}
