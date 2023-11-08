@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ast",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ESLint configurations",
   "main": "index.js",
   "scripts": {
