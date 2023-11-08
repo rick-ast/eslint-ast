@@ -8,7 +8,13 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
   ],
-  plugins: ['import'],
+  plugins: [
+    'import',
+    /**
+     * @see https://github.com/import-js/eslint-plugin-import/issues/2685
+     */
+    'simple-import-sort',
+  ],
   rules: {
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
@@ -21,28 +27,10 @@ module.exports = {
         destructuredArrayIgnorePattern: '^_',
       },
     ],
+    'import/first': 'error',
     'import/newline-after-import': 'error',
     'import/no-duplicates': 'error',
-    'import/order': [
-      'error',
-      {
-        alphabetize: {
-          order: 'asc',
-        },
-        'newlines-between': 'always',
-        groups: [
-          'builtin',
-          'external',
-          'internal',
-          ['parent', 'sibling', 'index'],
-        ],
-      },
-    ],
-    'sort-imports': [
-      'error',
-      {
-        ignoreDeclarationSort: true,
-      },
-    ],
+    'simple-import-sort/exports': 'error',
+    'simple-import-sort/imports': 'error',
   },
 }
