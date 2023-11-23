@@ -3,5 +3,6 @@ module.exports = {
   plugins: ['eslint-plugin-local-rules'],
   rules: {
     'local-rules/exhaustive-deps-req': 'warn',
+    'local-rules/no-ahooks-req': 'warn',
   },
 }
