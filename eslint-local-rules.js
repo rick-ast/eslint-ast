@@ -1,4 +1,4 @@
 module.exports = {
-  'exhaustive-deps-req': require('./lib/rules/exhaustive-deps-req'),
+  'exhaustive-deps-ahooks-req': require('./lib/rules/exhaustive-deps-ahooks-req'),
   'no-ahooks-req': require('./lib/rules/no-ahooks-req'),
 }

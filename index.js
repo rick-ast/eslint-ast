@@ -10,9 +10,7 @@ module.exports = {
   ],
   plugins: [
     'import',
-    /**
-     * @see https://github.com/import-js/eslint-plugin-import/issues/2685
-     */
+    /** @see https://github.com/import-js/eslint-plugin-import/issues/2685 */
     'simple-import-sort',
   ],
   rules: {

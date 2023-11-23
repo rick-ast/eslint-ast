@@ -4,12 +4,14 @@
   "description": "ESLint configurations",
   "main": "index.js",
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "eslint . --fix"
   },
   "files": [
     "lib",
     "*.js",
-    "!.eslintrc.js"
+    "!.eslintrc.js",
+    "!playground"
   ],
   "repository": {
     "type": "git",
