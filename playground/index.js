@@ -11,5 +11,6 @@ export const C = () => {
       return [foo, bar]
     },
     { refreshDeps: [bar, foo] },
-  )
+  ),
+    'bar'
 }
