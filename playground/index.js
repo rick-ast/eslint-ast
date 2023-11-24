@@ -6,11 +6,15 @@ export const C = () => {
   const [foo, _setFoo] = useState()
   const [bar, _setBar] = useState()
 
+  useRequest(async () => {
+    return [foo, bar]
+  }, [])
+
   useRequest(
     async () => {
       return [foo, bar]
     },
     { refreshDeps: [bar, foo] },
   ),
-    'bar'
+    'foobar'
 }
