@@ -10,6 +10,8 @@ export const C = () => {
     return [foo, bar]
   }, [])
 
+  useRequest(async () => foo, { manual: true })
+
   useRequest(
     async () => {
       return [foo, bar]
