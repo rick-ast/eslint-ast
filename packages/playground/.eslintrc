@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "ast",
+    "plugin:ast/recommended"
+  ]
+}
