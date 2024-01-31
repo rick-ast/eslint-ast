@@ -26,14 +26,6 @@ npm i -D eslint-config-ast
 }
 ```
 
-- React Native
-
-```json
-{
-  "extends": "ast/react-native"
-}
-```
-
 - NestJS / Node.js
 
 ```jsonc
