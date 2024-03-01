@@ -34,14 +34,12 @@ npm i -D eslint-config-ast
 }
 ```
 
-### Recommended prettier config (`.prettierrc`)
+### Prettier config (`.prettierrc`)
 
 ```json
 {
   "semi": false,
   "singleQuote": true,
-  "tabWidth": 2,
-  "printWidth": 80,
   "endOfLine": "auto"
 }
 ```
