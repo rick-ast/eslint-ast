@@ -19,5 +19,6 @@ module.exports = {
     'no-console': 'warn',
     'no-debugger': 'error',
     'react/prop-types': 'off',
+    'react/react-in-jsx-scope': 'off',
   },
 }
