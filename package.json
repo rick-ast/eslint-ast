@@ -8,11 +8,12 @@
     "release": "node scripts/release.mjs"
   },
   "devDependencies": {
-    "eslint": "^8.56.0",
+    "eslint": "^8.57.0",
+    "eslint-config-ast": "workspace:^",
     "execa": "^8.0.1",
-    "husky": "^9.0.7",
-    "lint-staged": "^15.2.0",
-    "prettier": "^3.2.4"
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5"
   },
   "lint-staged": {
     "*": [
