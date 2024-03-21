@@ -3,7 +3,6 @@
     "packages/*"
   ],
   "scripts": {
-    "prepare": "husky",
     "lint": "eslint . --fix",
     "release": "node scripts/release.mjs"
   },
@@ -11,9 +10,12 @@
     "eslint": "^8.57.0",
     "eslint-config-ast": "workspace:^",
     "execa": "^8.0.1",
-    "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "simple-git-hooks": "^2.11.0"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
     "*": [
