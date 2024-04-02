@@ -1,11 +1,7 @@
 {
   "name": "playground",
   "private": true,
-  "dependencies": {
-    "ahooks": "^3.7.10"
-  },
   "devDependencies": {
-    "@types/react": "^18.2.66",
-    "eslint-plugin-ast": "workspace:^"
+    "@types/react": "^18.2.66"
   }
 }

@@ -11,8 +11,7 @@
     "Typescript",
     "React",
     "Next.js",
-    "NestJS",
-    "React Native"
+    "NestJS"
   ],
   "peerDependencies": {
     "eslint": ">=8",

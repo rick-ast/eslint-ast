@@ -1,17 +1,15 @@
-import { useRequest } from 'ahooks'
-import { FC, useState } from 'react'
+import { type FC, useState } from 'react'
 
 const App: FC = () => {
-  const [count] = useState(0)
+  const [count, setCount] = useState(0)
 
-  const { data } = useRequest(
-    async () => {
-      return count + 1
-    },
-    { refreshDeps: [count] },
+  return (
+    <div>
+      <p>{count}</p>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+      <button onClick={() => setCount(count - 1)}>Decrement</button>
+    </div>
   )
-
-  return <>{data}</>
 }
 
 export default App
