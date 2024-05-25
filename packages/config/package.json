@@ -27,7 +27,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-simple-import-sort": "^12.1.0"
   },
-  "author": "Rick <rick.ast@outlook.com>",
+  "author": "Rick <rick-ast@outlook.com>",
   "homepage": "https://github.com/rick-ast/eslint-ast#readme",
   "repository": {
     "type": "git",
