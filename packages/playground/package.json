@@ -2,6 +2,6 @@
   "name": "playground",
   "private": true,
   "devDependencies": {
-    "@types/react": "^18.2.74"
+    "@types/react": "^18.3.3"
   }
 }
