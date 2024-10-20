@@ -6,12 +6,12 @@
     "lint": "eslint . --fix"
   },
   "devDependencies": {
-    "eslint": "^8.57.0",
+    "eslint": "^8.57.1",
     "eslint-config-ast": "workspace:^",
-    "lint-staged": "^15.2.7",
+    "lint-staged": "^15.2.10",
     "prettier": "^3.3.3",
     "simple-git-hooks": "^2.11.1",
-    "typescript": "^5.5.3"
+    "typescript": "^5.6.3"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
